@@ -1,0 +1,27 @@
+{
+  "name": "buildgum",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Local creator commerce CRUD workshop with versioned products and durable simulated receipts.",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 127.0.0.1 --port 5180 --strictPort",
+    "check": "tsc --noEmit",
+    "build": "tsc && vite build",
+    "preview": "vite preview --host 127.0.0.1 --port 5180 --strictPort",
+    "test": "node scripts/test.mjs"
+  },
+  "devDependencies": {
+    "@types/react": "19.2.15",
+    "@types/react-dom": "19.2.3",
+    "typescript": "6.0.3",
+    "vite": "8.0.14"
+  },
+  "dependencies": {
+    "react": "19.2.6",
+    "react-dom": "19.2.6"
+  },
+  "engines": {
+    "node": ">=22.12.0"
+  }
+}

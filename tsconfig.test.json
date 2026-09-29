@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "target": "ES2023",
+    "module": "CommonJS",
+    "moduleResolution": "Node10",
+    "ignoreDeprecations": "6.0",
+    "lib": ["ES2023", "DOM"],
+    "strict": true,
+    "skipLibCheck": true,
+    "outDir": ".verification",
+    "types": [],
+    "rootDir": "src"
+  },
+  "include": ["src/model.ts", "src/repository.ts", "src/initial.ts"]
+}
