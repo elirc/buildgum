@@ -2,6 +2,8 @@
 
 Use a separate branch or copy of your learning workspace. Export browser data before schema experiments. These are proposed learning tasks, not silently claimed completed features. Consult [solutions and review](06-SOLUTIONS-AND-REVIEW.md) after writing your own acceptance criteria.
 
+Two commands gate every exercise here: `npm test` (the Node test runner via `scripts/test.mjs`) and `npm run check` (`tsc --noEmit`). An exercise counts as done when both pass with your new tests included — write the failing test first so you know it can fail.
+
 ## Exercise 1: a useful product field
 
 Add an optional support URL. Begin with the type, strict validator, sample data, form, storefront, and import behavior. Decide whether old backups need migration or a new schema version. An optional TypeScript property alone will not make an exact-key validator accept older JSON.
